@@ -47,7 +47,7 @@ This framework is an extension of the online distillation framework proposed by 
 
 **MAS**: It assigns an importance weight for each network parameter by approximating the sensitivity of the network output to a parameter change. 
 
-**RWalk**: it is a generalized formulation that combines a modifier version of the two popular importance-based methods: EWC and PI. RWalk computed importance scores for network parameters, similar to MAS, and regularized over the network parameters.
+**RWalk**: It is a generalized formulation that combines a modified version of the two popular importance-based methods: EWC and PI. RWalk computed importance scores for network parameters, similar to MAS, and regularized over the network parameters.
 
 ## Getting Started
 The following instructions will help you install the required libraries and the dataset to run the code. The code runs in python 3.9 and was tested in a conda environment. Pytorch is used as deep learning library. 
