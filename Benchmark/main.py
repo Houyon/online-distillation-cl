@@ -1,23 +1,4 @@
 
-"""
-----------------------------------------------------------------------------------------
-Copyright (c) 2022 - see AUTHORS file
-
-This file is part of the Online Distillation software.
-
-This program is free software: you can redistribute it and/or modify it under the terms 
-of the GNU Affero General Public License as published by the Free Software Foundation, 
-either version 3 of the License, or (at your option) any later version.
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; 
-without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
-See the GNU Affero General Public License for more details.
-
-You should have received a copy of the GNU Affero General Public License along with this 
-program. If not, see < [ https://www.gnu.org/licenses/ | https://www.gnu.org/licenses/ ] >.
-----------------------------------------------------------------------------------------
-"""
-
 import os
 import torch
 from tqdm import tqdm
@@ -135,18 +116,9 @@ if __name__ == "__main__":
         elif args.onlinedataset == "prioritized":
             from datasets.prioritized import PrioritizedDataset
             dataset = PrioritizedDataset(args, network, criterion)
-        elif args.onlinedataset == "er":
-            from datasets.er import ExperienceReplay
-            dataset = ExperienceReplay(args)
-        elif args.onlinedataset == "per":
-            from datasets.per import PrioritizedExperienceReplay
-            dataset = PrioritizedExperienceReplay(args, network, criterion)
         elif args.onlinedataset == "mir":
             from datasets.mir import MIR
             dataset = MIR(args, network, criterion, optimizer)
-        elif args.onlinedataset == "efifo":
-            from datasets.efifo import EFifoDataset
-            dataset = EFifoDataset(args)
         else:
             raise Exception("No valid online dataset has been specified.")
         
