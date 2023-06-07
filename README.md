@@ -102,7 +102,7 @@ If you wish to use another teacher that is not trained on Cityscape, simply down
 
 ### Training and evaluating the student
 
-To train and evaluate the student, simply run:
+General skeleton to run the code:
 
 ```
 cd Benchmark
