@@ -1,0 +1,8 @@
+
+.DS_Store
+__pycache__
+*.db
+performance.log
+Results/
+Preprocessing/logs/
+mmsegmentation/checkpoints/*.pth
