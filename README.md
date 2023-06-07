@@ -158,7 +158,7 @@ Here is how you can use these regularization-based methods, and which arguments 
     - `--temperature`: Adjust the temperature of the softmax layer
     - `--alpha`: Scaling factor on the regularizer
 
-- **RWalk**:
+- **RWalk**: `--trainer RWalk`
     - `--delta-t`: Rate (in iterations) at which a score update must be triggered
     - `--decay`: Exponential averaging factor for the importance weights 
     - `--reg`: Factor determining the importance of the weight loss
