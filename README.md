@@ -21,7 +21,7 @@ The framework works in two steps:
 1. Compute the teacher pseudo-groundtruth segmentation mask with one teacher once for all frames of the video, or a subset.
 2. Train and evaluate the student network in an iterative way based on these pseudo-groundtruth teacher masks, according to the method you want to use (repla-based and/or regularization-based).
 
-## Short description of the online knowledge distillation framework
+## Short description of the continual online knowledge distillation framework
 
 This framework is an extension of the online distillation framework proposed by Cioppa et al. (Link to [Paper](https://dial.uclouvain.be/pr/boreal/object/boreal%3A219162/datastream/PDF_01/view)) that mitigates the phenomenom of catastrophic forgetting when a domain shift occurs. To do so, we adress this issue by leveraging the power of continual learning methods to reduce the impact of domain shifts. Precisely, we extend the online distillation framework by incorporating replay-based methods and/or regularization-based methods.
 
