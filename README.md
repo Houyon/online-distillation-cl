@@ -1,4 +1,4 @@
-# Online Distillation
+# Continual Online Distillation
 
 This repository implements a benchmarking version of the continual online distillation framework. This work will be presented at the CVPR 2023 workshop.
 
