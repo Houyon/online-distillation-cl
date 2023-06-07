@@ -38,8 +38,8 @@ class RWalkNetworkTrainer(NetworkTrainer):
         self.update_freq = args.update_freq
         self.warmup = args.warmup
         
-        self.ewc_alpha = args.alpha
-        self.ewc_lambda = args.decay
+        self.ewc_alpha = args.decay
+        self.ewc_lambda = args.reg
         self.delta_t = args.delta_t
         self.init_exp_info = False
         
