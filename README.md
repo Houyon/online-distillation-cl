@@ -6,11 +6,6 @@ Link to the paper: [Paper](https://openaccess.thecvf.com/content/CVPR2023W/CLVis
 
 To cite this paper or repository, please use the following bibtex entry:
 
-
-The framework works in two steps:
-1. Compute the teacher pseudo-groundtruth segmentation mask with one teacher once for all frames of the video, or a subset.
-2. Train and evaluate the student network in an iterative way based on these pseudo-groundtruth teacher masks, according to the method you want to use (repla-based and/or regularization-based).
-
 ```bibtex
 @InProceedings{Houyon_2023_CVPR,
     author    = {Houyon, Joachim and Cioppa, Anthony and Ghunaim, Yasir and Alfarra, Motasem and Halin, Ana{\"\i}s and Henry, Maxim and Ghanem, Bernard and Van Droogenbroeck, Marc},
@@ -21,6 +16,10 @@ The framework works in two steps:
     pages     = {2436-2445}
 }
 ```
+
+The framework works in two steps:
+1. Compute the teacher pseudo-groundtruth segmentation mask with one teacher once for all frames of the video, or a subset.
+2. Train and evaluate the student network in an iterative way based on these pseudo-groundtruth teacher masks, according to the method you want to use (repla-based and/or regularization-based).
 
 ## Short description of the online knowledge distillation framework
 
