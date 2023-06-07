@@ -180,6 +180,8 @@ plot_methods(experiments, sequence_length)
     - `label` is the method name that will be shown on the legend of the plot
     - `color` is the color of the plotted values of the metrics
 
+- `sequence_length` is the sequence length (in minutes).
+
 For instance, 
 
 ```python
