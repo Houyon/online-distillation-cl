@@ -67,7 +67,7 @@ pip install mmsegmentation
 ```
 
 Note: make sure that the pytorch-cuda version matches your cuda version installed on your computer.
-Otherwise, visit: [https://pytorch.org/get-started/previous-versions/](https://pytorch.org/get-started/previous-versions/) for oler pytorch versions.
+Otherwise, visit: [https://pytorch.org/get-started/previous-versions/](https://pytorch.org/get-started/previous-versions/) for older pytorch versions.
 
 ### Setting up the dataset
 
@@ -124,7 +124,7 @@ At each iteration, the student will be trained on 100 frames (`--datasetsize`, r
 
 The results are saved in a the `--save/--subfolder/experiment_x/` folder as two csv files: The first file, denoted as `performance.log` has one line per iteration and 6 values per line (accuracy, accuracy BWT, accuracy FWT, mIoU, mIoU BWT and mIoU FWT). The second file, denoted as `final.log`, has one line per iteraiton and 2 values per line (accuracy FBWT, mIoU FBWT). Note that the mIoU only discards classes with no groundtruth and no predictions. The BWT and FWT for each metric is computed according to the given time shift (`--sequence-length`).
 
-## Method-specific paremeters
+## Method-specific parameters
 
 ### Replay-based methods
 
