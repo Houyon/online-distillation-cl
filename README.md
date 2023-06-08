@@ -1,6 +1,6 @@
 # Continual Online Distillation
 
-This repository implements a benchmarking version of the continual online distillation framework. This work will be presented at the CVPR 2023 workshop.
+This repository implements a benchmarking version of the continual online distillation framework. This work will be presented at the CLVision workshop at CVPR 2023.
 
 Link to the paper: [Paper](https://openaccess.thecvf.com/content/CVPR2023W/CLVision/html/Houyon_Online_Distillation_With_Continual_Learning_for_Cyclic_Domain_Shifts_CVPRW_2023_paper.html)
 
